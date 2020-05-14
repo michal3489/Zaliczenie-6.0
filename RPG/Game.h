@@ -19,7 +19,29 @@ class Game
 {
 private:
 
+	//Utworzenie obiektów klasy
+	RenderWindow* window;
+	Event event;
+	Clock timeClock;
+
+	float time;
+
+	//inicjalizacja okna
+	void initWindow();
+
 public:
+
+	// Konstruktor i destruktor
+	Game();
+	virtual ~Game();
+
+	//Funkcje
+	void updateTime();
+	void render();
+	void update();
+	void run();
+	void updateEvents();
+
 };
 
 #endif // !Game_H

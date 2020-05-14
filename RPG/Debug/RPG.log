@@ -1,0 +1,9 @@
+﻿  Game.cpp
+D:\Projekty\Zaliczenie-6.0\RPG\Game.cpp(10,3): error C2146: błąd składniowy: brakuje „;” przed identyfikatorem „VideoMode”
+D:\Projekty\Zaliczenie-6.0\RPG\Game.cpp(23,30): error C2039: „setVerticalSyncEnabled”: nie jest składową elementu „Game”
+D:\Projekty\Zaliczenie-6.0\RPG\Game.h(18): message : zobacz deklarację „Game”
+  main.cpp
+D:\Projekty\Zaliczenie-6.0\RPG\main.cpp(1,10): error C2015: zbyt wiele znaków w stałej
+D:\Projekty\Zaliczenie-6.0\RPG\main.cpp(1,10): error C2006: „#include”: oczekiwano wartości "NAZWA_PLIKU" lub <NAZWA_PLIKU>
+D:\Projekty\Zaliczenie-6.0\RPG\main.cpp(1,10): fatal error C1083: Nie można otworzyć pliku dołącz: '': No such file or directory
+  Generowanie kodu...
